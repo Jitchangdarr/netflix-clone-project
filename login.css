@@ -1,0 +1,165 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.main
+{
+    background-image: url("image.jpg");
+    height: 50rem;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+}
+.main .box
+{
+    height: 110vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav
+{
+    max-width: 80vw;
+    justify-content: center;
+    margin: auto;
+   align-items: center;
+   height: 50px;
+    justify-content: space-between;
+
+}
+nav button
+{
+    position: relative;
+    z-index: 10;
+}
+
+#hero
+{
+    justify-content: center;
+    position: relative;
+    z-index: 15;
+    align-items: center;
+    background-color: black;
+    opacity: 0.56;
+    height: 38rem;
+    width: 61%; 
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+    
+}
+
+ #hero input
+{
+height: 1.5rem;
+width: 13rem;
+margin: 5px;
+border-radius: 5px;
+flex-wrap: wrap;
+max-height: 150%;
+ max-width: 300px;
+}
+::placeholder {
+    color: red;
+    opacity: 1; /* Firefox */
+  }
+@media (min-width: 768px) {
+    input {
+     flex-wrap: wrap;
+      padding: 12px;
+    }
+  }
+#texts
+{
+    border-color: red;
+}
+
+#btn
+{
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: initial;
+    border-right-style: initial;
+    border-bottom-style: initial;
+    border-left-style: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    appearance: auto;
+    font-size: 13px;
+    height: 2rem;
+   width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    background-color: rgb(244, 8, 8);
+
+    color: white;
+    font-size: 1rem;
+    user-select: none;
+    letter-spacing: normal;
+    line-height: 1;
+    border-radius: 0.2rem;
+    min-height: 2.5rem;
+    cursor: pointer;
+    border: 1px solid darkred;
+    font-weight: 400;
+    justify-content: center;
+    fill: currentColor;
+
+}
+.forgot_password
+{
+text-decoration: dashed;
+cursor: pointer;
+color: white;
+text-decoration-color: azure;
+}
+
+ .checkbox-container {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .checkbox-container input[type="checkbox"] 
+  {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+  .checkbox-container label {
+    cursor: pointer;
+  } 
+strong
+{
+    color: rgb(61, 61, 235);
+    text-decoration: dashed;
+    cursor: pointer;
+}
+  .name
+  {
+    color: white;
+  }
+
+  #heros
+  {
+    position: relative;
+    top: 5rem;
+  }
+

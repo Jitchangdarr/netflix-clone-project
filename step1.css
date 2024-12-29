@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.midlle_div_part
+{
+    margin: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+   
+}
+.heading1
+{
+    display: inline-block;
+    font-size: 23px;
+    font-weight: 500;
+    font-size: 27px;
+    margin: 0 0 .4em;
+    font-size: 2em;
+    margin: .67em 0;
+}
+
+
+@media screen and (min-width: 740px) {
+    h1 {
+        font-size: 38px;
+    }
+}
+
+.heading2
+{
+   font-size: 20px;
+} 
+.chiledren_middle_div_part  input
+{
+    height: 3rem;
+    width: 20rem;
+}
+
+::placeholder
+{
+    font-size: 15px;
+}
+
+button
+{
+    height: 3rem;
+    width: 10rem;
+    background-color: #800000;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid rgb(97, 5, 5); 
+
+}
+
+footer
+{
+    
+    height: 10rem;
+    background-color: #F1F0E8;
+}
+.container li{
+    
+    list-style-type: none;
+    margin: 0.1rem;
+  
+   
+}
+.container ul{
+    
+    list-style-type: none;
+    float: left;
+    margin: 1rem;
+}
+
+footer .container
+{
+    display: flex;
+   
+   margin-top: 3rem;
+    margin-bottom: 3rem;
+    
+}

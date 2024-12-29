@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Grid Layout</title>
+        <style>
+            /* Container styling */
+            .grid-container {
+                display: grid;
+                gap: 20px;
+                padding: 20px;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            }
+
+            /* Individual div styling */
+            .grid-item {
+                background-color: #333;
+                color: white;
+                padding: 20px;
+                border-radius: 10px;
+                text-align: center;
+            }
+
+            /* Button styling */
+            button {
+                height: auto;
+                padding: 10px 20px;
+                border-radius: 10px;
+                background-color: red;
+                color: white;
+                font-size: 1rem;
+                max-width: 100%;
+
+            }
+
+            .btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 20px 0;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="grid-container">
+            <div class="grid-item">Content 1</div>
+            <div class="grid-item">Content 2</div>
+            <div class="grid-item">Content 3</div>
+            <div class="grid-item">Content 4</div>
+        </div>
+
+        <div class="btn">
+            <button>Watch Now</button>
+        </div>
+
+    </body>
+
+</html>
